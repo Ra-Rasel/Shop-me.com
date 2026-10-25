@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbfb" />
+      <stop offset="100%" stop-color="#ebedee" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="500" fill="url(#bgGrad)" rx="12" />
+  
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="100" r="180" fill="#4f46e5" opacity="0.08" />
+  <circle cx="950" cy="400" r="220" fill="#db2777" opacity="0.06" />
+
+  <!-- Left Text Group -->
+  <g transform="translate(90, 160)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#4f46e5" letter-spacing="3">NEW SEASON • NEW LOOK</text>
+    <text x="0" y="70" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#1f2937">Shopme Fashion</text>
+    <text x="0" y="125" font-family="system-ui, sans-serif" font-size="20" fill="#4b5563">Elevate your style with our exclusive collection</text>
+    
+    <!-- Button Shape -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="170" height="48" rx="8" fill="#111827" />
+      <text x="85" y="29" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">SHOP NOW</text>
+    </g>
+  </g>
+
+  <!-- Right Side Graphic Card -->
+  <g transform="translate(750, 80)">
+    <rect x="50" y="20" width="280" height="340" rx="16" fill="#ffffff" filter="drop-shadow(0px 10px 25px rgba(0,0,0,0.08))" />
+    <rect x="80" y="50" width="220" height="200" rx="12" fill="#f3f4f6" />
+    <path d="M140 150 L190 100 L240 150 L220 200 L160 200 Z" fill="#4f46e5" opacity="0.8" />
+    <rect x="80" y="270" width="160" height="14" rx="4" fill="#e5e7eb" />
+    <rect x="80" y="295" width="100" height="12" rx="4" fill="#9ca3af" />
+  </g>
+</svg>
